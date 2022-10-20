@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgrdetai"
+    tools:context=".Detail">
+
+
+
+    <LinearLayout
+        android:id="@+id/imgis"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/thongtin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Giới thiệu chi tiết về phim: "
+            android:gravity="center|left"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/thongtin0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DOCTOR STRANGE"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold|italic" />
+
+
+        <ImageView
+            android:id="@+id/imgthem"
+            android:layout_width="match_parent"
+            android:layout_height="700px"
+            android:src="@drawable/anhdetai" />
+
+        <TextView
+            android:id="@+id/thongtin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="  Đạo diễn:  Scott Derrickson"
+            android:gravity="left"
+            android:textSize="30dp"
+            android:layout_gravity="left"/>
+        <TextView
+            android:id="@+id/thongtin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="  Thời luọng:  180 phút"
+            android:gravity="center|left"
+
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/thongtin3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="  Tình trạng:  Đang công chiếu"
+            android:gravity="center|left"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/thongtin5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center|left"
+            android:text="  Năm sản xuất:  2022"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/thongtin6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center|left"
+            android:textColor="@color/white"
+            android:text="  Thể loại:  Phim hành động"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
